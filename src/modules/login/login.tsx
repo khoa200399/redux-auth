@@ -40,7 +40,7 @@ const Login: React.FC = () => {
       <br />
       <br />
 
-      <button onClick={() => login(email,password)}>
+      <button onClick={() => login({email,password})}>
         Login
       </button>
 
